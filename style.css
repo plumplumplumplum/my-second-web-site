@@ -1,0 +1,146 @@
+@charset "UFT-8";
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 16px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:#333333;
+}
+
+header {
+    width:1000px;
+    margin: 0 auto 44px;
+    /* 아니 ㅅㅂ 0 이랑 auto는 무슨 의미임?*/
+}
+
+body header img {
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom:20px;
+    border-radius: 80px;
+    padding: 20px;
+    
+}
+
+
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    background-color: rgba(255, 255, 255, 0.42);
+    
+
+}
+
+header nav ul li {
+    margin: 20px;
+}
+
+header nav ul li a{
+    font-size: 30px;
+    font-weight: bold;
+    color :#847a74;
+
+}
+
+header nav ul li a:hover {
+    text-decoration: 
+    underline solid gray 3px;
+}
+
+aside nav ul li a:hover {
+    text-decoration:
+    underline solid gray 2px;
+}
+
+div {
+    width:1200px;
+    margin: 0 auto 50px;
+    display: flex;
+}
+
+main { 
+    flex-basis: 900px; 
+    background-color: rgb(251, 255, 240);
+    margin-right: 50px;
+    border-radius: 30px;
+    padding: 30px 30px 30px 30px ;
+    box-shadow: 0px 0px 5px rgba(0,0,0,10);
+    
+}
+
+aside {
+    flex-basis: 284px;
+    
+    
+    
+
+}
+
+aside nav {
+    border-radius: 20px;
+    padding:24px 28px;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,10);
+    background-color: rgb(251, 255, 240);
+ 
+    
+}
+
+aside nav h2 {
+    font-size: 40px;
+}
+
+aside nav li {
+    font-size: 16px;
+}
+
+.listNav ul li {
+    list-style: square;
+    color: rgb(0, 0, 0);
+    margin: 14px;
+}
+
+.recentNav ul li {
+    list-style: square;
+    color: black;
+    margin: 14px;
+    border-bottom: 1px solid gray;
+}
+
+.recentNav ul {
+    height: 240px;
+    overflow: hidden scroll;
+}
+
+article h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+article h3 {
+    font-size: 30px ;
+    
+}
+
+.whySection {
+    margin-bottom: 30px;
+    background-color: gainsboro;
+    border-radius:30px
+}
+
+.reasonSection {
+    margin-bottom: 30px;
+}
